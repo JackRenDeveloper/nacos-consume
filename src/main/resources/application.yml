@@ -1,0 +1,15 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: elvis.ziyun56.com:18483
+    sentinel:
+          transport:
+            port: 8719
+            dashboard: elvis.ziyun56.com:18485
+
+feign.sentinel.enabled: true
