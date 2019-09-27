@@ -6,10 +6,10 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: elvis.ziyun56.com:18483
+        server-addr: 192.168.4.201:18083
     sentinel:
           transport:
             port: 8719
-            dashboard: elvis.ziyun56.com:18485
+            dashboard: 192.168.4.201:18085
 
 feign.sentinel.enabled: true
